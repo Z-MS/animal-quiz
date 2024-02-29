@@ -36,19 +36,27 @@
 <style>
     .question__card {
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .question__text {
         text-align: left;
     }
 
     .options {
         display: flex;
         flex-direction: column;
+        align-self: flex-end;
         /* display: block; */
     }
 
+    .option {
+        width: 250px;
+    }
+
     .question {
-        max-width: 50%;
+        margin-right: 2rem;
     }
 
     .option {

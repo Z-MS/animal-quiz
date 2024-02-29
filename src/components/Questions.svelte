@@ -52,7 +52,7 @@
         <Question on:message={checkAnswer} bind:this={questionComponent} {...quizQuestions[questionIndexes[currentQuestion - 1]]}/>
     {/await}
     {#if currentQuestion < NUMBER_OF_QUESTIONS}
-        <button on:click={gotoNextQuestion} class="green__button">Next</button>
+        <button on:click={gotoNextQuestion} id="next__button">Next</button>
     {/if}
 </div>
 
@@ -61,7 +61,8 @@
         display: flex;
         justify-content: space-between;
     }
-    .green__button {
+    #next__button {
+        margin-top: 1rem;
         background-color: limegreen;
         color: white;
     }

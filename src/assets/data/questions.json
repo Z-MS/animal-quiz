@@ -4,69 +4,69 @@
         "answer": "Blue Whale",
         "options": ["Elephant", "Giraffe", "Blue Whale", "Hippo"],
         "imageUrl": "src/assets/the-new-york-public-library-yEauzeZU6xo-unsplash.jpg",
-        "imageAltText": "Blue Whale Image"
+        "imageAltText": "A view of planet Earth fron outer space, with Africa most visible."
     },
     {
         "question": "What is a female lion called?",
         "answer": "Lioness",
         "options": ["Lioness", "Queen", "Cub", "Pride"],
         "imageUrl": "src/assets/anais-buan--iJaqqtrkJI-unsplash.jpg",
-        "imageAltText": "Lion Image"
+        "imageAltText": "A lioness sitting on wood."
     },
     {
         "question": "What is the fastest land animal?",
         "answer": "Cheetah",
         "options": ["Lion", "Leopard", "Cheetah", "Gazelle"],
         "imageUrl": "src/assets/tomas-eidsvold-s2wjvuA_mFY-unsplash.jpg",
-        "imageAltText": "Cheetah Image"
+        "imageAltText": "Rain clouds coming in over the Valdresflya mountain plateau in Jotunheimen, Norway."
     },
     {
         "question": "All of these animals lay eggs except?",
         "answer": "Panda",
         "options": ["Fish", "Chicken", "Crocodile", "Panda"],
         "imageUrl": "src/assets/nick-fewings-qlLCBkTSYAI-unsplash.jpg",
-        "imageAltText": "Flamingo Image"
+        "imageAltText": "Eggs on wood shavings."
     },
     {
         "question": "What liquid do bees produce?",
         "answer": "Honey",
         "options": ["Silk", "Honey", "Web", "Milk"],
         "imageUrl": "src/assets/damien-tupinier-OFEvgVfr6iU-unsplash.jpg",
-        "imageAltText": "Kangaroo Image"
+        "imageAltText": "Bees near the entrance of a wooden hive."
     },
     {
         "question": "All of these animals have gills except?",
         "answer": "Killer whale",
         "options": ["Great White Shark", "Salmon", "Killer Whale", "Tuna"],
         "imageUrl": "src/assets/sebastian-pena-lambarri-YV593oyMKmo-unsplash.jpg",
-        "imageAltText": "Zebra Image"
+        "imageAltText": "A school of fish swimming underwater."
     },
     {
         "question": "What is a baby goat called?",
         "answer": "Kid",
         "options": ["Pup", "Calf", "Cub", "Kid"],
         "imageUrl": "src/assets/jonathan-mast-e3U2dYt526Y-unsplash.jpg",
-        "imageAltText": "Polar Bear Image"
+        "imageAltText": "Brown and white goats eating grass."
     },
     {
         "question": "What sound do lions make?",
         "answer": "Lion",
         "options": ["Tiger", "Leopard", "Jaguar", "Lion"],
         "imageUrl": "src/assets/zdenek-machacek-UxHol6SwLyM-unsplash.jpg",
-        "imageAltText": "Lion Image"
+        "imageAltText": "A lion and a cub sitting on grass."
     },
     {
         "question": "What are the white bones protruding from an elephant's mouth called?",
         "answer": "Tusks",
         "options": ["Bird", "Butterfly", "Bat", "Pterosaur"],
         "imageUrl": "src/assets/matthew-spiteri-WfZ4WCuNtlg-unsplash.jpg",
-        "imageAltText": "Bat Image"
+        "imageAltText": "Three elephants walking on grass."
     },
     {
         "question": "How many legs does an octopus have?",
         "answer": "8",
         "options": ["Whale", "Seal", "Dolphin", "Manatee"],
         "imageUrl": "src/assets/diane-picchiottino-dW0gfo__uU8-unsplash.jpg",
-        "imageAltText": "Dolphin Image"
+        "imageAltText": "Purple octopus swimming among rocks."
     }
 ]
