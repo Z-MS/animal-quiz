@@ -1,0 +1,72 @@
+[
+    {
+        "question": "What is the largest mammal on Earth?",
+        "answer": "Blue Whale",
+        "options": ["Elephant", "Giraffe", "Blue Whale", "Hippo"],
+        "imageUrl": "https://example.com/bluewhale.jpg",
+        "imageAltText": "Blue Whale Image"
+    },
+    {
+        "question": "Which big cat is known for its distinctive black mane?",
+        "answer": "Lion",
+        "options": ["Tiger", "Leopard", "Jaguar", "Lion"],
+        "imageUrl": "https://example.com/lion.jpg",
+        "imageAltText": "Lion Image"
+    },
+    {
+        "question": "What is the fastest land animal?",
+        "answer": "Cheetah",
+        "options": ["Lion", "Leopard", "Cheetah", "Gazelle"],
+        "imageUrl": "https://example.com/cheetah.jpg",
+        "imageAltText": "Cheetah Image"
+    },
+    {
+        "question": "Which bird is known for its long neck and legs?",
+        "answer": "Flamingo",
+        "options": ["Heron", "Stork", "Flamingo", "Pelican"],
+        "imageUrl": "https://example.com/flamingo.jpg",
+        "imageAltText": "Flamingo Image"
+    },
+    {
+        "question": "What is the national animal of Australia?",
+        "answer": "Red Kangaroo",
+        "options": ["Koala", "Emu", "Red Kangaroo", "Wombat"],
+        "imageUrl": "https://example.com/kangaroo.jpg",
+        "imageAltText": "Kangaroo Image"
+    },
+    {
+        "question": "Which animal is known for its black and white stripes?",
+        "answer": "Zebra",
+        "options": ["Horse", "Donkey", "Zebra", "Mule"],
+        "imageUrl": "https://example.com/zebra.jpg",
+        "imageAltText": "Zebra Image"
+    },
+    {
+        "question": "What is the largest species of bear?",
+        "answer": "Polar Bear",
+        "options": ["Grizzly Bear", "Black Bear", "Polar Bear", "Brown Bear"],
+        "imageUrl": "https://example.com/polarbear.jpg",
+        "imageAltText": "Polar Bear Image"
+    },
+    {
+        "question": "Which animal is known as the 'King of the Jungle'?",
+        "answer": "Lion",
+        "options": ["Tiger", "Leopard", "Jaguar", "Lion"],
+        "imageUrl": "https://example.com/lion2.jpg",
+        "imageAltText": "Lion Image"
+    },
+    {
+        "question": "What is the only mammal capable of sustained flight?",
+        "answer": "Bat",
+        "options": ["Bird", "Butterfly", "Bat", "Pterosaur"],
+        "imageUrl": "https://example.com/bat.jpg",
+        "imageAltText": "Bat Image"
+    },
+    {
+        "question": "Which marine mammal is known for its playful behavior?",
+        "answer": "Dolphin",
+        "options": ["Whale", "Seal", "Dolphin", "Manatee"],
+        "imageUrl": "https://example.com/dolphin.jpg",
+        "imageAltText": "Dolphin Image"
+    }
+]
