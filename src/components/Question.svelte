@@ -9,6 +9,8 @@
 
     let buttonDisabled = false;
 
+    let optionColour = "lightskyblue";
+
     export const toggleOption = function() {
         buttonDisabled = !buttonDisabled;
     };
@@ -18,6 +20,12 @@
         dispatch("message", {
             optionSelected, answer
         })
+
+        if(optionSelected !== answer) {
+            optionColour = "red";
+        } else {
+            optionColour = "lime";
+        }
     }
 </script>
 
@@ -53,6 +61,14 @@
 
     .option {
         width: 250px;
+    }
+
+    .option.correct {
+        background-color: lime;
+    }
+
+    .option.wrong {
+        background-color: red;
     }
 
     .question {
