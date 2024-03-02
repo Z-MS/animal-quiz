@@ -1,11 +1,9 @@
 import { register, init } from 'svelte-i18n';
 
-register('en', () => import('../i18n/en.json'));
-register('fr', () => import('../i18n/fr.json'));
+register('en', () => import('../locales/en.json'));
+register('fr', () => import('../locales/fr.json'));
 
 init({
     fallbackLocale: 'en',
-    initialLocale: 'fr',
+    initialLocale: 'en',
 });
-
-

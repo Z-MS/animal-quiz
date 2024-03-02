@@ -46,6 +46,7 @@
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
+        flex-wrap: wrap;
     }
 
     .question__text {

@@ -14,7 +14,7 @@ let gameStarted = false;
   {#if gameStarted}
   <Questions/>
   {:else}
-    <button on:click={() => gameStarted = true}  id="start__button">Start</button>
+    <button on:click={() => gameStarted = true}  id="start__button">{$_('startButton')}</button>
   {/if}
 </main>
 {/if}
