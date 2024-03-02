@@ -1,4 +1,6 @@
 {
   "title": "Quiz sur les animaux",
-  "startButton": "Commencer"
+  "start_button": "Start",
+  "question_counter": "Question {current_question}/{number_of_questions}",
+  "next_button": "Next"
 }
