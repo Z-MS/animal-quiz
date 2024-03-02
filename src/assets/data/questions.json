@@ -51,21 +51,21 @@
     {
         "question": "What sound do lions make?",
         "answer": "Lion",
-        "options": ["Tiger", "Leopard", "Jaguar", "Lion"],
+        "options": ["Screech", "Bark", "Meow", "Roar"],
         "imageUrl": "src/assets/zdenek-machacek-UxHol6SwLyM-unsplash.jpg",
         "imageAltText": "A lion and a cub sitting on grass."
     },
     {
         "question": "What are the white bones protruding from an elephant's mouth called?",
         "answer": "Tusks",
-        "options": ["Bird", "Butterfly", "Bat", "Pterosaur"],
+        "options": ["Ebony", "Tusks", "Antlers", "Horns"],
         "imageUrl": "src/assets/matthew-spiteri-WfZ4WCuNtlg-unsplash.jpg",
         "imageAltText": "Three elephants walking on grass."
     },
     {
         "question": "How many legs does an octopus have?",
         "answer": "8",
-        "options": ["Whale", "Seal", "Dolphin", "Manatee"],
+        "options": ["12", "8", "10", "6"],
         "imageUrl": "src/assets/diane-picchiottino-dW0gfo__uU8-unsplash.jpg",
         "imageAltText": "Purple octopus swimming among rocks."
     }

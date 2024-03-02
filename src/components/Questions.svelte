@@ -1,4 +1,5 @@
 <script>
+    import { _ } from "svelte-i18n";
     import Question from "./Question.svelte";
 
     let questionComponent;
@@ -25,14 +26,14 @@
 
     function gotoNextQuestion() {
         currentQuestion++;
-        questionComponent.toggleOption();
+        questionComponent.enableOptionButtons();
     }
 
     function checkAnswer(event) {
         if(event.detail.optionSelected === event.detail.answer) {
             score++;
         }
-        questionComponent.toggleOption();
+        questionComponent.disableOptionButtons();
     }
     
     
@@ -43,7 +44,13 @@
 
 <div>
     <div class="question__details">
-        <p>Question {currentQuestion}/{NUMBER_OF_QUESTIONS}</p>
+        <p>{$_('question_counter', 
+        { 
+            values: {
+                current_question: currentQuestion,
+                number_of_questions: NUMBER_OF_QUESTIONS
+            }
+        })}</p>
         <p>Score: {score} points</p>
     </div>
     {#await getQuestions()}
@@ -52,7 +59,7 @@
         <Question on:message={checkAnswer} bind:this={questionComponent} {...quizQuestions[questionIndexes[currentQuestion - 1]]}/>
     {/await}
     {#if currentQuestion < NUMBER_OF_QUESTIONS}
-        <button on:click={gotoNextQuestion} id="next__button">Next</button>
+        <button on:click={gotoNextQuestion} id="next__button">{$_('next_button')}</button>
     {/if}
 </div>
 

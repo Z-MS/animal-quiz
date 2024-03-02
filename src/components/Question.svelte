@@ -7,13 +7,19 @@
     export let imageUrl;
     export let imageAltText;
 
+
     let buttonDisabled = false;
+    export const enableOptionButtons = function() {
+        buttonDisabled = false;
+    };
+    
+    export const disableOptionButtons = function () {
+        console.log("Hello I am Bubu:" + buttonDisabled)
+        buttonDisabled = true;
+    }
 
     let optionColour = "lightskyblue";
 
-    export const toggleOption = function() {
-        buttonDisabled = !buttonDisabled;
-    };
 
     let dispatch = createEventDispatcher();
     function check(optionSelected) {
@@ -26,6 +32,8 @@
         } else {
             optionColour = "lime";
         }
+
+        buttonDisabled = true;
     }
 </script>
 
