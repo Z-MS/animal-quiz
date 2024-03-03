@@ -84,13 +84,13 @@
         "imageAltText": "Brown and white goats eating grass."
     },
     {
-        "question": "What sound do lions make?",
+        "question": "Comment s'appelle le cri de lion ?",
         "answer": "Le lion",
         "options": [
-            "Screech",
-            "Bark",
-            "Meow",
-            "Roar"
+            "Le hurlement",
+            "L'aboiement",
+            "Le miaou",
+            "Le rugissement"
         ],
         "imageUrl": "src/assets/zdenek-machacek-UxHol6SwLyM-unsplash.jpg",
         "imageAltText": "A lion and a cub sitting on grass."
@@ -108,7 +108,7 @@
         "imageAltText": "Three elephants walking on grass."
     },
     {
-        "question": "How many legs does an octopus have?",
+        "question": "Combien de tentacules a une pieuvre ?",
         "answer": "8",
         "options": [
             "12",
