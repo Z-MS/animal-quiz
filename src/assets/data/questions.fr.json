@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Quel est le plus grand mammifère sur Terre ?",
+        "answer": "Le rorqual bleu",
+        "options": [
+            "\tL’éléphant",
+            "La girafe",
+            "Le rorqual bleu",
+            "L’hippopotame"
+        ],
+        "imageUrl": "src/assets/the-new-york-public-library-yEauzeZU6xo-unsplash.jpg",
+        "imageAltText": "Une vue de la planète Terre depuis l'espace."
+    },
+    {
+        "question": "Comment s'appelle la femelle du lion ?",
+        "answer": "Une lionne",
+        "options": [
+            "Une lionne",
+            "Reine",
+            "Lionceau",
+            "Une troupe"
+        ],
+        "imageUrl": "src/assets/anais-buan--iJaqqtrkJI-unsplash.jpg",
+        "imageAltText": "Une lionne est assise sur du bois."
+    },
+    {
+        "question": "Quel animal est le plus-rapide du monde ?",
+        "answer": "Le guépard",
+        "options": [
+            "Le lion",
+            "Le guépard",
+            "Le guépard",
+            "La gazelle"
+        ],
+        "imageUrl": "src/assets/tomas-eidsvold-s2wjvuA_mFY-unsplash.jpg",
+        "imageAltText": "Rain clouds coming in over the Valdresflya mountain plateau in Jotunheimen, Norway."
+    },
+    {
+        "question": "Tous ces animaux pondent des œufs, sauf ?",
+        "answer": "Le panda",
+        "options": [
+            "Le poisson",
+            "La poule",
+            "Le crocodile",
+            "Le panda"
+        ],
+        "imageUrl": "src/assets/nick-fewings-qlLCBkTSYAI-unsplash.jpg",
+        "imageAltText": "Eggs on wood shavings."
+    },
+    {
+        "question": "Quel liquide les abeilles produisent-elles ?",
+        "answer": "Le miel",
+        "options": [
+            "La soie",
+            "Le miel",
+            "La toile d'araignée",
+            "Le lait"
+        ],
+        "imageUrl": "src/assets/damien-tupinier-OFEvgVfr6iU-unsplash.jpg",
+        "imageAltText": "Bees near the entrance of a wooden hive."
+    },
+    {
+        "question": "All of these animals have gills except?",
+        "answer": "L'orque",
+        "options": [
+            "Le grand requin blanc",
+            "Le saumon",
+            "L'orque",
+            "Le thon"
+        ],
+        "imageUrl": "src/assets/sebastian-pena-lambarri-YV593oyMKmo-unsplash.jpg",
+        "imageAltText": "A school of fish swimming underwater."
+    },
+    {
+        "question": "Comment s'appelle le petit de chèvre ?",
+        "answer": "Le chevreau",
+        "options": [
+            "Le chiot",
+            "Le veau",
+            "Lionceau",
+            "Le chevreau"
+        ],
+        "imageUrl": "src/assets/jonathan-mast-e3U2dYt526Y-unsplash.jpg",
+        "imageAltText": "Brown and white goats eating grass."
+    },
+    {
+        "question": "Comment s'appelle le cri de lion ?",
+        "answer": "Le lion",
+        "options": [
+            "Le hurlement",
+            "L'aboiement",
+            "Le miaou",
+            "Le rugissement"
+        ],
+        "imageUrl": "src/assets/zdenek-machacek-UxHol6SwLyM-unsplash.jpg",
+        "imageAltText": "A lion and a cub sitting on grass."
+    },
+    {
+        "question": "Comment Appelle-t-on la bouche d'un éléphant ?",
+        "answer": "Défenses d'éléphants",
+        "options": [
+            "L'ébène",
+            "Défenses d'éléphants",
+            "La ramure",
+            "Les cornes"
+        ],
+        "imageUrl": "src/assets/matthew-spiteri-WfZ4WCuNtlg-unsplash.jpg",
+        "imageAltText": "Three elephants walking on grass."
+    },
+    {
+        "question": "Combien de tentacules a une pieuvre ?",
+        "answer": "8",
+        "options": [
+            "12",
+            "8",
+            "10",
+            "6"
+        ],
+        "imageUrl": "src/assets/diane-picchiottino-dW0gfo__uU8-unsplash.jpg",
+        "imageAltText": "Purple octopus swimming among rocks."
+    }
+]
