@@ -1,91 +1,91 @@
 [
     {
-        "question": "What is the largest mammal on Earth?",
-        "answer": "Blue Whale",
+        "question": "Quel est le plus grand mammifère sur Terre ?",
+        "answer": "Le rorqual bleu",
         "options": [
-            "Elephant",
-            "Giraffe",
-            "Blue Whale",
-            "Hippo"
+            "\tL’éléphant",
+            "La girafe",
+            "Le rorqual bleu",
+            "L’hippopotame"
         ],
         "imageUrl": "src/assets/the-new-york-public-library-yEauzeZU6xo-unsplash.jpg",
-        "imageAltText": "A view of planet Earth fron outer space, with Africa most visible."
+        "imageAltText": "Une vue de la planète Terre depuis l'espace."
     },
     {
-        "question": "What is a female lion called?",
-        "answer": "Lioness",
+        "question": "Comment s'appelle la femelle du lion ?",
+        "answer": "Une lionne",
         "options": [
-            "Lioness",
-            "Queen",
-            "Cub",
-            "Pride"
+            "Une lionne",
+            "Reine",
+            "Lionceau",
+            "Une troupe"
         ],
         "imageUrl": "src/assets/anais-buan--iJaqqtrkJI-unsplash.jpg",
-        "imageAltText": "A lioness sitting on wood."
+        "imageAltText": "Une lionne est assise sur du bois."
     },
     {
-        "question": "What is the fastest land animal?",
-        "answer": "Cheetah",
+        "question": "Quel animal est le plus-rapide du monde ?",
+        "answer": "Le guépard",
         "options": [
-            "Lion",
-            "Leopard",
-            "Cheetah",
-            "Gazelle"
+            "Le lion",
+            "Le guépard",
+            "Le guépard",
+            "La gazelle"
         ],
         "imageUrl": "src/assets/tomas-eidsvold-s2wjvuA_mFY-unsplash.jpg",
         "imageAltText": "Rain clouds coming in over the Valdresflya mountain plateau in Jotunheimen, Norway."
     },
     {
-        "question": "All of these animals lay eggs except?",
-        "answer": "Panda",
+        "question": "Tous ces animaux pondent des œufs, sauf ?",
+        "answer": "Le panda",
         "options": [
-            "Fish",
-            "Chicken",
-            "Crocodile",
-            "Panda"
+            "Le poisson",
+            "La poule",
+            "Le crocodile",
+            "Le panda"
         ],
         "imageUrl": "src/assets/nick-fewings-qlLCBkTSYAI-unsplash.jpg",
         "imageAltText": "Eggs on wood shavings."
     },
     {
-        "question": "What liquid do bees produce?",
-        "answer": "Honey",
+        "question": "Quel liquide les abeilles produisent-elles ?",
+        "answer": "Le miel",
         "options": [
-            "Silk",
-            "Honey",
-            "Web",
-            "Milk"
+            "La soie",
+            "Le miel",
+            "La toile d'araignée",
+            "Le lait"
         ],
         "imageUrl": "src/assets/damien-tupinier-OFEvgVfr6iU-unsplash.jpg",
         "imageAltText": "Bees near the entrance of a wooden hive."
     },
     {
         "question": "All of these animals have gills except?",
-        "answer": "Killer whale",
+        "answer": "L'orque",
         "options": [
-            "Great White Shark",
-            "Salmon",
-            "Killer Whale",
-            "Tuna"
+            "Le grand requin blanc",
+            "Le saumon",
+            "L'orque",
+            "Le thon"
         ],
         "imageUrl": "src/assets/sebastian-pena-lambarri-YV593oyMKmo-unsplash.jpg",
         "imageAltText": "A school of fish swimming underwater."
     },
     {
-        "question": "What is a baby goat called?",
-        "answer": "Kid",
+        "question": "Comment s'appelle le petit de chèvre ?",
+        "answer": "Le chevreau",
         "options": [
-            "Pup",
-            "Calf",
-            "Cub",
-            "Kid"
+            "Le chiot",
+            "Le veau",
+            "Lionceau",
+            "Le chevreau"
         ],
         "imageUrl": "src/assets/jonathan-mast-e3U2dYt526Y-unsplash.jpg",
         "imageAltText": "Brown and white goats eating grass."
     },
     {
         "question": "What sound do lions make?",
-        "answer": "Lion",
+        "answer": "Le lion",
         "options": [
             "Screech",
             "Bark",
@@ -96,13 +96,13 @@
         "imageAltText": "A lion and a cub sitting on grass."
     },
     {
-        "question": "What are the white bones protruding from an elephant's mouth called?",
-        "answer": "Tusks",
+        "question": "Comment Appelle-t-on la bouche d'un éléphant ?",
+        "answer": "Défenses d'éléphants",
         "options": [
-            "Ebony",
-            "Tusks",
-            "Antlers",
-            "Horns"
+            "L'ébène",
+            "Défenses d'éléphants",
+            "La ramure",
+            "Les cornes"
         ],
         "imageUrl": "src/assets/matthew-spiteri-WfZ4WCuNtlg-unsplash.jpg",
         "imageAltText": "Three elephants walking on grass."
