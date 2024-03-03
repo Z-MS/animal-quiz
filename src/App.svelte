@@ -1,6 +1,8 @@
 <script>
-import { _, isLoading } from "svelte-i18n"; 
+import { _, isLoading, locale } from "svelte-i18n"; 
 import Questions from "./components/Questions.svelte";
+import LocaleSwitcher from "./components/LocaleSwitcher.svelte";
+
 let gameStarted = false;
 </script>
 
@@ -9,6 +11,7 @@ let gameStarted = false;
 {:else}
 <header>
   <p id="title">{$_('title')}</p>
+  <LocaleSwitcher currentLocale={$locale}/>
 </header>
 <main>
   {#if gameStarted}

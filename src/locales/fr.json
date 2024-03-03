@@ -3,5 +3,7 @@
   "start_button": "Commencer",
   "question_counter": "Question {current_question}/{number_of_questions}",
   "next_button": "Suivante",
-  "score": "Score: {score, plural, =0 {0 points} one {1 point} other {# points}}"
+  "score": "Score: {score, plural, =0 {0 points} one {1 point} other {# points}}",
+  "locale_switcher_english": "Anglais",
+  "locale_switcher_french": "Français"
 }
