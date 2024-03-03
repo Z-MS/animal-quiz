@@ -2,5 +2,6 @@
   "title": "Animals Quiz",
   "start_button": "Start",
   "question_counter": "Question {current_question}/{number_of_questions}",
-  "next_button": "Next"
+  "next_button": "Next",
+  "score": "Score: {score, plural, =0 {0 points} one {1 point} other {# points}}"
 }

@@ -51,7 +51,7 @@
                 number_of_questions: NUMBER_OF_QUESTIONS
             }
         })}</p>
-        <p>Score: {score} points</p>
+        <p>{$_('score', { values: { score } })}</p>
     </div>
     {#await getQuestions()}
         <p>Loading...</p>
