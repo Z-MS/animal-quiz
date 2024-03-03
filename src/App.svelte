@@ -1,6 +1,6 @@
 <script>
 import { _, isLoading, locale } from "svelte-i18n"; 
-import Questions from "./components/Questions.svelte";
+import QuizContainer from "./components/QuizContainer.svelte";
 import LocaleSwitcher from "./components/LocaleSwitcher.svelte";
 
 let gameStarted = false;
@@ -17,7 +17,7 @@ let gameStarted = false;
 </header>
 <main>
   {#if gameStarted}
-  <Questions/>
+  <QuizContainer/>
   {:else}
     <button on:click={() => gameStarted = true}  id="start__button">{$_('start_button')}</button>
   {/if}
