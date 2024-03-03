@@ -1,5 +1,5 @@
 <script>
-    import { _ } from "svelte-i18n";
+    import { _, locale } from "svelte-i18n";
     import Question from "./Question.svelte";
 
     let questionComponent;
@@ -36,9 +36,9 @@
         questionComponent.disableOptionButtons();
     }
     
-    
     function getQuestions() {
-        return fetch('src/assets/data/questions.json').then(response => response.json());
+        let currentLocale = $locale;
+        return fetch(`src/assets/data/questions.${currentLocale}.json`).then(response => response.json());
     }
 </script>
 

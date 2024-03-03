@@ -11,7 +11,9 @@ let gameStarted = false;
 {:else}
 <header>
   <p id="title">{$_('title')}</p>
-  <LocaleSwitcher currentLocale={$locale}/>
+  {#if !gameStarted}
+    <LocaleSwitcher currentLocale={$locale}/>
+  {/if}
 </header>
 <main>
   {#if gameStarted}

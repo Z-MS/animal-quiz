@@ -14,7 +14,6 @@
     };
     
     export const disableOptionButtons = function () {
-        console.log("Hello I am Bubu:" + buttonDisabled)
         buttonDisabled = true;
     }
 
