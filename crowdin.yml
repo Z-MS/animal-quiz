@@ -1,3 +1,5 @@
 files:
   - source: /src/locales/en.json
     translation: /src/locales/%two_letters_code%.json
+  - source: /src/assets/data/questions.json
+    translation: /src/assets/data/questions.%two_letters_code%.json
