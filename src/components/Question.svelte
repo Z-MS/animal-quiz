@@ -9,24 +9,27 @@
 
 
     let buttonDisabled = false;
+    let optionColour;
+    let optionSelected = null;
+
     export const enableOptionButtons = function() {
         buttonDisabled = false;
+        optionSelected = null;
     };
     
     export const disableOptionButtons = function () {
         buttonDisabled = true;
     }
 
-    let optionColour = "lightskyblue";
-
 
     let dispatch = createEventDispatcher();
-    function check(optionSelected) {
+    function check(option) {
+        optionSelected = option;
         dispatch("message", {
-            optionSelected, answer
+            option, answer
         })
 
-        if(optionSelected !== answer) {
+        if(option !== answer) {
             optionColour = "red";
         } else {
             optionColour = "lime";
@@ -43,7 +46,14 @@
     </div>
     <div class="options">
         {#each options as option}
-            <button on:click={() => { check(option) }} disabled={buttonDisabled} class="option">{option}</button>
+            <button 
+                on:click={() => { check(option) }} 
+                disabled={buttonDisabled} 
+                class="option" 
+                class:correct={ optionSelected && option === answer } 
+                class:wrong={ (option === optionSelected) && (option !== answer) }>
+                {option}
+            </button>
         {/each}
     </div>
 </div>
@@ -54,37 +64,34 @@
         justify-content: space-around;
         align-items: flex-start;
         flex-wrap: wrap;
+        text-align: left;
     }
 
     .question__text {
-        text-align: left;
+        font-size: 1.25rem;
     }
 
     .options {
         display: flex;
         flex-direction: column;
         align-self: flex-end;
-        /* display: block; */
-    }
-
-    .option {
-        width: 250px;
     }
 
     .option.correct {
-        background-color: lime;
+        background-color: #19dd19;
     }
-
+    
     .option.wrong {
         background-color: red;
     }
-
+    
     .question {
         margin-right: 2rem;
     }
-
+    
     .option {
-        background-color: lightskyblue;
+        width: 250px;
+        background-color: #765ad5;
         margin-bottom: 1rem;
         color: white;
     }

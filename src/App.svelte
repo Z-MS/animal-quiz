@@ -11,10 +11,12 @@ let gameStarted = false;
 {:else}
 <header>
   <p id="title">{$_('title')}</p>
-  {#if !gameStarted}
-    <LocaleSwitcher currentLocale={$locale}/>
-  {/if}
 </header>
+  {#if !gameStarted}
+    <div>
+      <LocaleSwitcher currentLocale={$locale}/>
+    </div>
+  {/if}
 <main>
   {#if gameStarted}
   <QuizContainer/>
@@ -24,11 +26,17 @@ let gameStarted = false;
 </main>
 {/if}
 <style>
+
+  main {
+    margin-top: 10%;
+  }
+
   #title {
-    margin: 0;
-    font-size: large;
+    margin: 0 1rem 1rem 0;
+    font-size: 2rem;
   }
   #start__button {
+    font-size: 1.25rem;
     background-color: limegreen;
     color: white;
   }

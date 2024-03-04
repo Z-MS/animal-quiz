@@ -15,3 +15,10 @@
         <option value="fr">{$_('locale_switcher_french')}</option>
     </select>
 </div>
+
+<style>
+    select {
+        width: 50%;
+        font-size: 1rem;
+    }
+</style>

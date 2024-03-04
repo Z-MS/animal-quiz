@@ -30,7 +30,7 @@
     }
 
     function checkAnswer(event) {
-        if(event.detail.optionSelected === event.detail.answer) {
+        if(event.detail.option === event.detail.answer) {
             score++;
         }
         questionComponent.disableOptionButtons();
@@ -67,6 +67,8 @@
     .question__details {
         display: flex;
         justify-content: space-between;
+        font-weight: 700;
+        color: gray;
     }
     #next__button {
         margin-top: 1rem;

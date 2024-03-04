@@ -16,7 +16,7 @@
     {
         "question": "What is the fastest land animal?",
         "answer": "Cheetah",
-        "options": ["Lion", "Leopard", "Cheetah", "Gazelle"],
+        "options": ["Lion", "Falcon", "Cheetah", "Gazelle"],
         "imageUrl": "src/assets/tomas-eidsvold-s2wjvuA_mFY-unsplash.jpg",
         "imageAltText": "Rain clouds coming in over the Valdresflya mountain plateau in Jotunheimen, Norway."
     },
