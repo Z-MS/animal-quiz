@@ -5,5 +5,7 @@
   "next_button": "Next",
   "score": "Score: {score, plural, =0 {0 points} one {1 point} other {# points}}",
   "locale_switcher_english": "English",
-  "locale_switcher_french": "French"
+  "locale_switcher_french": "French",
+  "restart_button": "",
+  "game_over": ""
 }
