@@ -36,7 +36,7 @@
     },
     {
         "question": "All of these animals have gills except?",
-        "answer": "Killer whale",
+        "answer": "Killer Whale",
         "options": ["Great White Shark", "Salmon", "Killer Whale", "Tuna"],
         "imageUrl": "src/assets/sebastian-pena-lambarri-YV593oyMKmo-unsplash.jpg",
         "imageAltText": "A school of fish swimming underwater."
@@ -50,7 +50,7 @@
     },
     {
         "question": "What sound do lions make?",
-        "answer": "Lion",
+        "answer": "Roar",
         "options": ["Screech", "Bark", "Meow", "Roar"],
         "imageUrl": "src/assets/zdenek-machacek-UxHol6SwLyM-unsplash.jpg",
         "imageAltText": "A lion and a cub sitting on grass."

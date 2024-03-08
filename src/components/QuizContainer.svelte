@@ -1,6 +1,7 @@
 <script>
     import { _, locale } from "svelte-i18n";
     import Question from "./Question.svelte";
+    import { createEventDispatcher } from "svelte";
 
     let questionComponent;
 
@@ -23,9 +24,12 @@
     let questionIndexes = pickRandomIndexes();
     let currentQuestion = 1;
     let score = 0;
+    let nextButtonDisabled = true;
+    let dispatch = createEventDispatcher();
 
     function gotoNextQuestion() {
         currentQuestion++;
+        nextButtonDisabled = true;
         questionComponent.enableOptionButtons();
     }
 
@@ -33,6 +37,15 @@
         if(event.detail.option === event.detail.answer) {
             score++;
         }
+
+        if(currentQuestion === NUMBER_OF_QUESTIONS) {
+            dispatch("game-over", {
+                score
+            });
+            return;
+        }
+
+        nextButtonDisabled = false;
         questionComponent.disableOptionButtons();
     }
     
@@ -59,7 +72,7 @@
         <Question on:message={checkAnswer} bind:this={questionComponent} {...quizQuestions[questionIndexes[currentQuestion - 1]]}/>
     {/await}
     {#if currentQuestion < NUMBER_OF_QUESTIONS}
-        <button on:click={gotoNextQuestion} id="next__button">{$_('next_button')}</button>
+        <button on:click={gotoNextQuestion} id="next__button" disabled={nextButtonDisabled}>{$_('next_button')}</button>
     {/if}
 </div>
 
@@ -74,5 +87,9 @@
         margin-top: 1rem;
         background-color: limegreen;
         color: white;
+    }
+
+    #next__button:disabled {
+        background-color: rgb(89, 151, 89);
     }
 </style>

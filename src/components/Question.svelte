@@ -7,9 +7,7 @@
     export let imageUrl;
     export let imageAltText;
 
-
     let buttonDisabled = false;
-    let optionColour;
     let optionSelected = null;
 
     export const enableOptionButtons = function() {
@@ -28,12 +26,6 @@
         dispatch("message", {
             option, answer
         })
-
-        if(option !== answer) {
-            optionColour = "red";
-        } else {
-            optionColour = "lime";
-        }
 
         buttonDisabled = true;
     }
