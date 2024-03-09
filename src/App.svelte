@@ -30,9 +30,16 @@ function endGame(event) {
   {#if !gameStarted}
     <div>
       <LocaleSwitcher currentLocale={$locale}/>
-    </div>
+    </div> 
   {/if}
 <main>
+  {#if gameEnded}
+    <div id="game__over">
+      <p id="game__over__text">{$_('game_over')}</p>
+      <p>{$_('score', { values: { score } })}</p>
+    </div>
+  {/if}
+
   {#if gameStarted}
   <QuizContainer on:game-over={endGame}/>
   {:else}
@@ -45,13 +52,6 @@ function endGame(event) {
     </button>
   {/if}
 
-  {#if gameEnded}
-    <div id="game__over">
-      <p>{$_('game_over')}</p>
-      <p>{$_('score', { values: { score } })}</p>
-      <button>Restart</button>
-    </div>
-  {/if}
 </main>
 {/if}
 <style>
@@ -66,7 +66,14 @@ function endGame(event) {
   }
 
   #game__over {
-    border: 0.5px solid gray;
+    margin-bottom: 1rem;
+    border: 0.025px solid rgb(223, 223, 223);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
+  }
+
+  #game__over__text {
+    font-weight: 600;
   }
 
   #start__button {
