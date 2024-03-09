@@ -6,6 +6,6 @@
   "score": "Score: {score, plural, =0 {0 points} one {1 point} other {# points}}",
   "locale_switcher_english": "Anglais",
   "locale_switcher_french": "Français",
-  "restart_button": "Redémarrer",
+  "restart_button": "Recommencer",
   "game_over": "Game over"
 }
