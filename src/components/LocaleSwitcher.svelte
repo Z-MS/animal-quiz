@@ -18,6 +18,7 @@
 
 <style>
     select {
+        margin-bottom: 1rem;
         width: 50%;
         font-size: 1rem;
     }
